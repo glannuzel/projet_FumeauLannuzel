@@ -71,9 +71,10 @@ namespace JeuTextuel
                             int n = 0;
                             while (item as Clef == null)
                             {
-                                item = mesObjets[n + 1];
+                                n++;
+                                item = mesObjets[n];
                             }
-                            inventaire.supprimerItem(item);
+                            inventaire.supprimerItem(n);
                             fouiller(inventaire);
                         }
                         else { Console.WriteLine("Bon, je verrai une prochaine fois."); }
