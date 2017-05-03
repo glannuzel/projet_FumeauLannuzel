@@ -19,7 +19,7 @@ namespace menu
 
         public override string ToString()
         {
-            return "Bonjour je m'appelle : " + Nom + "\nJe suis Agent d'entretient";
+            return "Bonjour je m'appelle : " + Nom + "\nJe suis cuisinier";
         }
     }
 }
