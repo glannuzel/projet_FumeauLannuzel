@@ -54,7 +54,7 @@ namespace menu
             int index = int.Parse(Console.ReadLine());
             int attaque = pp.Force + (pp.monStuf.elements[index - 1].stat_obj);
             int stop= 1;
-            while (Sante > 0||stop==0)
+            while (Sante > 0||stop==0||pp.Sante>0)
             {
                 Console.WriteLine("1) Attaquer\n2) Fuire?");
                 int choix = int.Parse(Console.ReadLine());
@@ -90,6 +90,10 @@ namespace menu
                     if(Sante<=0)
                     {
                         Console.WriteLine("Il est KO");
+                    }
+                    if(pp.Sante<=0)
+                    {
+                        Console.WriteLine("Vous êtes KO")
                     }
                 }
                 else
