@@ -15,5 +15,10 @@ namespace JeuTextuel
             Console.WriteLine("Il y a peut-être quelque chose dans cette table de chevet. Je vais jeter un oeil");
             fouiller(inventaire);
         }
+
+        public override string ToString()
+        {
+            return ("une table de chevet");
+        }
     }
 }

@@ -15,5 +15,10 @@ namespace JeuTextuel
             Console.WriteLine("Regardons ce qu'il y a dans cette bouche d\'aération.");
             fouiller(inventaire);
         }
+
+        public override string ToString()
+        {
+            return ("une bouche d'aération");
+        }
     }
 }

@@ -9,5 +9,10 @@ namespace JeuTextuel
     class Clef : Objet_Inventaire
     {
         public Clef() : base("clé") { }
+
+        public override string ToString()
+        {
+            return ("une clé");
+        }
     }
 }

@@ -10,5 +10,9 @@ namespace JeuTextuel
     {
         public Cintre() : base("cintre") { }
 
+        public override string ToString()
+        {
+            return ("un cintre");
+        }
     }
 }
