@@ -34,9 +34,10 @@ namespace JeuTextuel
             }
         }
 
-        public void supprimerItem(Objet_Inventaire item)
+        public void supprimerItem(int index)
         {
-            elements.Remove(item);
+            Console.WriteLine("L'objet {0} a été supprimé de l'inventaire", elements[index].nom);
+            elements.RemoveAt(index);
         }
 
         public void jeterItem()

@@ -4,3 +4,7 @@ C:\Users\Gaëlle\Documents\ENSC\Informatique\ProjetProgAvancee\JeuTextuel\bin\De
 C:\Users\Gaëlle\Documents\ENSC\Informatique\ProjetProgAvancee\JeuTextuel\obj\Debug\JeuTextuel.csprojResolveAssemblyReference.cache
 C:\Users\Gaëlle\Documents\ENSC\Informatique\ProjetProgAvancee\JeuTextuel\obj\Debug\JeuTextuel.exe
 C:\Users\Gaëlle\Documents\ENSC\Informatique\ProjetProgAvancee\JeuTextuel\obj\Debug\JeuTextuel.pdb
+C:\Users\Gaëlle\Documents\ENSC\Informatique\projet_FumeauLannuzel\JeuTextuel\bin\Debug\JeuTextuel.exe.config
+C:\Users\Gaëlle\Documents\ENSC\Informatique\projet_FumeauLannuzel\JeuTextuel\obj\Debug\JeuTextuel.exe
+C:\Users\Gaëlle\Documents\ENSC\Informatique\projet_FumeauLannuzel\JeuTextuel\obj\Debug\JeuTextuel.pdb
+C:\Users\Gaëlle\Documents\ENSC\Informatique\projet_FumeauLannuzel\JeuTextuel\obj\Debug\JeuTextuel.csprojResolveAssemblyReference.cache

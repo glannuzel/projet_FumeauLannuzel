@@ -106,7 +106,7 @@ namespace JeuTextuel
                     int objet_choisi = int.Parse(Console.ReadLine());
                     if ((inventaire.voirInventaire()[objet_choisi] as Clef != null) || (inventaire.voirInventaire()[objet_choisi] as Cintre != null))
                     {
-                        perso.monStuff.supprimerItem(perso.monStuff.voirInventaire()[objet_choisi]);
+                        perso.monStuff.supprimerItem(objet_choisi);
                         ouverte = true;
                         Console.ForegroundColor = ConsoleColor.Yellow;
                         Console.WriteLine("Porte déverouillée.");
