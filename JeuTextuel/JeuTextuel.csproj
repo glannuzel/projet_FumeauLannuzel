@@ -56,6 +56,7 @@
     <Compile Include="Cuisinier.cs" />
     <Compile Include="DebrisMiroir.cs" />
     <Compile Include="Douche.cs" />
+    <Compile Include="Essai.cs" />
     <Compile Include="Fauteuil.cs" />
     <Compile Include="Gardien.cs" />
     <Compile Include="GrosBras.cs" />
@@ -63,11 +64,14 @@
     <Compile Include="Inspecteur.cs" />
     <Compile Include="Lavabo.cs" />
     <Compile Include="Lit.cs" />
+    <Compile Include="Livre.cs" />
+    <Compile Include="Magazine.cs" />
     <Compile Include="Medecin.cs" />
     <Compile Include="Miroir.cs" />
     <Compile Include="Objet.cs" />
     <Compile Include="Objet_Environnement.cs" />
     <Compile Include="Objet_Inventaire.cs" />
+    <Compile Include="PagesLivre.cs" />
     <Compile Include="Patient.cs" />
     <Compile Include="Patient_gentil.cs" />
     <Compile Include="Personnel_etablissement.cs" />

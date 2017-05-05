@@ -49,8 +49,7 @@ namespace JeuTextuel
 
             //Creation du personnage principal de la partie
             Perso_principal smith = new Perso_principal(chambre226);
-
-
+            
             //Début du jeu
             partie1(smith);
             
@@ -253,29 +252,28 @@ namespace JeuTextuel
         {
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("***.........AAAAAAAAAAAAAAAHHH…………A L’AAAAAAIDE……………. \nAAAAAAAAHHH…………… AU SECOOOOOURS…..***");
-            //Thread.CurrentThread.Sleep(200);
-            Console.Clear();
+            System.Threading.Thread.Sleep(2000);
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine(" --- " + perso.Position.GetAile() + ", " + perso.Position);
             Console.ForegroundColor = ConsoleColor.Cyan;
-            //Thread.CurrentThread.Sleep(200);
+            System.Threading.Thread.Sleep(2000);
             Console.Write("\nHAAN ! ");
             Console.ForegroundColor = ConsoleColor.White;
-            //Thread.CurrentThread.Sleep(200);
+            System.Threading.Thread.Sleep(2000);
             Console.WriteLine("*Réveil en sursaut *");
-            //Thread.CurrentThread.Sleep(200);
+            System.Threading.Thread.Sleep(2000);
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("Encore un cauchemar.");
-            //Thread.CurrentThread.Sleep(200);
+            System.Threading.Thread.Sleep(2000);
             Console.WriteLine("Ces cris qui résonnent dans ma tête toutes les nuits….");
-            //Thread.CurrentThread.Sleep(200);
+            System.Threading.Thread.Sleep(2000);
             Console.WriteLine("Ils m’empêchent de dormir. J’ai peur de dormir, mes nuits sont hantées par ces voix.");
-            //Thread.CurrentThread.Sleep(200);
+            System.Threading.Thread.Sleep(2000);
             Console.WriteLine("Mon front dégouline encore, j'ai des sueurs…");
-            //Thread.CurrentThread.Sleep(200);
+            System.Threading.Thread.Sleep(2000);
             Console.WriteLine("Et mon coeur, il s’est encore emballé ! Il faut que je me calme.");
             Console.ForegroundColor = ConsoleColor.White;
-            //Thread.CurrentThread.Sleep(200);
+            System.Threading.Thread.Sleep(2000);
             Console.WriteLine("\nQue faire ?");
             string reponse;
             do
@@ -296,14 +294,14 @@ namespace JeuTextuel
             } while (reponse != "2");
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("Allez, je me lève, ça va me faire du bien.");
-            //Thread.CurrentThread.Sleep(200);
+            System.Threading.Thread.Sleep(2000);
             Console.WriteLine("Mais où suis-je ? Je ne reconnais rien.");
-            //Thread.CurrentThread.Sleep(200);
+            System.Threading.Thread.Sleep(2000);
             decrireEnvironnement(perso.Position);
-            //Thread.CurrentThread.Sleep(200);
+            System.Threading.Thread.Sleep(2000);
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("On dirait.... la chambre d'un hôpital !! Mais qu'est-ce que je fais ici, que m'est-il arrivé ?");
-            //Thread.CurrentThread.Sleep(200);
+            System.Threading.Thread.Sleep(2000);
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("\nTaper 'aide' lorsque vous souhaitez connaître les actions disponibles");
             queFaire(perso);
